@@ -1,0 +1,127 @@
+@media screen and (max-width: 650px) {
+    :root{
+        --margin:0px;
+        --background-color: aqua;
+        }
+    
+        :root {
+            --padding: 0px;
+        }
+    header {
+        width: 100%;
+        margin-top: 10px;
+        
+    }
+    header h1{
+        display: grid;
+        background-color:  #1327da;
+        justify-content: center;
+        color: #d8f2fd;
+        margin-top: -10px;
+    }
+    
+    .top-pic{
+        height: auto;
+        max-width: 100%;
+    }
+
+
+    .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #d8f2fd;
+      }
+      
+    .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color:#d8f2fd;
+      }
+    
+    
+      .data-title{
+        background-color: #0b22f0;
+        height: 25px;
+        width: 200px;
+        color: #FFFFFF;
+        margin-top: 10px;
+   
+    }
+    
+    .data, .weather  {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .grid-split {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        padding-left: 0px;
+    }
+
+    .weather-title {
+        background-color: #0b22f0;
+        height: 35px;
+        width: 200px;
+        margin-left: 20px;
+        margin-top:10px;
+        color:#FFFFFF;
+        padding-left: 0px;
+    }
+
+
+
+    ul {
+        list-style-type: none;
+    }
+    
+    .weather-icon {
+        display: none;
+    }
+    
+    .weather-icon-mobile{
+        margin-left: 50px;
+    }
+
+    footer {
+        background-color: #062afa;
+        color: #FFFFFF;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: -10px;
+        
+    }
+    
+    .data-list{
+        display: grid;
+        justify-items: right;
+        align-items: center;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .data-list-values{
+        display: grid;
+        justify-items: left;
+        align-items: start;
+        padding-left: 5px;
+    }
+    img {
+       max-width: 100px;
+    }
+
+    li {
+        padding-top: 8px;
+        padding-bottom: 8px;
+     }
+
+
+
+
+}

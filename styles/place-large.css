@@ -1,0 +1,152 @@
+@media screen and (min-width: 650px) {
+
+    :root{
+    --margin:0px;
+    }
+
+    :root {
+    --padding: 0px;
+    }
+
+    header {
+        width: 100%;
+        margin-top: -10px;
+        
+    }
+    .top-pic{
+
+        display: none;
+    }
+
+    .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #d8f2fd;
+      }
+
+    .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color:#d8f2fd;
+      }
+
+
+    header h1{
+        display: grid;
+        background-color:  #1327da;
+        justify-content: center;
+        color: #d8f2fd;
+        margin-top: 10px;
+    }
+
+    body{
+        background-image: url("/images/urquhart-castle-autumn.webp") ;
+        background-repeat:no-repeat;
+        background-size: cover;
+        margin-top: 0px;
+        margin-left:0px;
+        margin-right:0px;
+        margin-bottom: 0px;
+    }
+
+
+    footer {
+        background-color: #062afa;
+        color: #FFFFFF;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 350px;
+        
+    }
+
+
+    .data-title{
+        background-color: #0b22f0;
+        height: 25px;
+        width: 200px;
+        margin-left: -20px;
+        color: #FFFFFF;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    
+    .data {
+        background-color: #f1f0f0;
+        height: 350px;
+        width: 300px;
+        margin-left: 40px;
+        opacity:.75;
+
+    }
+
+    .grid-split {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .weather-title {
+        background-color: #0b22f0;
+        height: 35px;
+        width: 200px;
+        margin-left: 20px;
+        margin-top:10px;
+        color:#FFFFFF;
+       
+    }
+
+    .weather-title::after {
+            content: '⛅';
+    }
+
+    .weather{
+        position: relative;
+        float: right;
+        background-color: #f1f0f0;
+        height: 200px;
+        width: 200px;
+        margin-right: 40px;
+        opacity: .75;
+    }
+
+
+    ul {
+        list-style-type: none;
+        margin-top: 0px;
+    }
+
+    .weather-icon-mobile{
+        display:none;
+    }
+
+    .data-list{
+        display: grid;
+        justify-items: right;
+        align-items: center;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .data-list-values{
+        display: grid;
+        justify-items: left;
+        align-items: start;
+        padding-left: 5px;
+    }
+
+ .weather-icon{
+    max-width: 30%;
+    max-height: 30px;
+ }
+
+ li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+ }
+}
+
+

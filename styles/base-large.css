@@ -1,0 +1,238 @@
+@media screen and (min-width: 650px) {
+
+
+
+    :root {
+        --primary-color: #267D7B;
+        --secondary-color: #23395B;
+        --accent1-color: #4E91DD;
+        --accent2-color: #03524E;
+    
+        --heading-font: 'Roboto', serif;
+        --paragraph-font: 'Nunito Sans', sans-serif;
+    
+        --nav-background-color: var(--accent1-color);
+        --nav-link-color: #eef;
+        --nav-hover-link-color:  var(--accent1-color);
+        --nav-hover-background-color:#eef;
+    }
+    
+    
+    header {
+        background-color: #333333;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width:100%;
+    }
+    
+    header h1{
+        justify-content: center;
+        color: #d8f2fd;
+    }
+    
+    .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #d8f2fd;
+      }
+      
+      .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color:#d8f2fd;
+      }
+      
+    
+    body {
+        font-family: var(--paragraph-font);
+        margin: 0 auto;
+        
+    }
+    
+    
+    main {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    }
+    
+    nav {
+        display: flex;
+        color: rgb(255, 255, 255);
+        padding: 20px 20px;
+        text-align: center;
+        text-decoration: none;
+        justify-content: space-evenly;
+        font-size: medium;
+        
+    }
+    
+    
+    
+    .main-content{
+    
+        background-color:#23395B
+    }
+    
+    
+    .aside-content{
+    
+        background-color: aqua;
+    }
+    
+    footer {
+    
+        background-color: #333333;
+        color: #FFFFFF;
+        padding: 25px 50px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    
+    .card{
+        grid-template-columns: 1fr;
+        display: grid;
+        align-content: stretch;
+        justify-content: flex-start;
+        border-color: #7d2626;
+        border: 3px;
+        border-style: solid;
+        margin-top: 10px;
+        margin: 10px;
+    }
+    
+    .title{
+        display: flex;
+        justify-content: center;
+        background-color: #333333;
+        font-size: larger;
+        color: rgb(255, 255, 255);
+        height: 30px;
+        margin-top: 0px;
+        border: 1px;
+    
+    }
+    
+    .card ul{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: auto;
+    }
+    
+    .about_me_1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: end;
+        background-color: #274C69;
+       
+    }
+    
+    .wedding{
+        display: grid;
+        margin-right: 20px;
+        max-width: 200px;
+        max-height: 200px;
+    
+    }
+    
+    .about_me_2{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+       
+    }
+    
+    .flag{
+        float: left;
+        margin-right: 20px;
+        max-width: 200px;
+        max-height: 200px;
+    }
+    
+    .explainer {
+        font-size: small;
+        padding-right: 30px;
+    }
+    
+    footer p {
+        margin: 0px;
+    }
+    
+    nav a:hover {
+        text-decoration:overline;
+    }
+    
+    .active {
+        color: yellow;
+    }
+    
+    nav a{
+        color: #FFFFFF
+    }
+
+
+    .certificate{
+        grid-column: span 2;
+        align-content: stretch;
+        border-color: #7d2626;
+        border: 3px;
+        border-style: solid;
+        margin: 10px;
+    }
+
+    .certificate li{
+        display: inline-block;
+        padding: 20px 20px;
+        text-align: center;
+        text-decoration: none;
+        justify-content: space-evenly;
+        font-size: medium;  
+    }
+
+    .degree_courses, .classes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .degree_courses li{
+        background-color:#115CAF;
+        color:#FFFFFF;
+        margin: 10px;
+        padding: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-decoration: none;
+        font-weight: 800;
+    }
+
+    .classes li{
+        display: flex;
+        flex-wrap: wrap;
+        background-color:#115CAF;
+        color:#FFFFFF;
+        margin: 10px;
+        padding: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-decoration: none;
+        font-weight: 800;
+    }
+
+    .classes li.green{
+        background-color: #006400;
+    }
+
+    .classes li.red{
+        background-color: #8B0000;
+    }
+
+
+    }
