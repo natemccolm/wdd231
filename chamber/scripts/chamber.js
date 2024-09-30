@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         pull_members(members, isGridView);
     });
 
-    const mainnav=document.querySelector('#navSpacing')
+    const mainnav=document.querySelector('.nav')
     const hambutton=document.querySelector('#menu')
  
 

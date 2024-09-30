@@ -98,11 +98,12 @@ footer {
 }
 
 #member_spread .grid_view{
+    max-width: 1200px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #2196F3;
-    padding: 10px;
-    max-width: auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 0.2fr;
+    grid-gap: 10px;
 }
 
 #member_spread.list_view{
@@ -177,7 +178,41 @@ nav ul {
     background-color: #eee;
     color: #000;
   }
+#menu_list{
+    display: none;
+}
 
+.nav a{
+    display: block;
+    padding: .75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1rem, 2vmin, 1.5rem);
+  }
+
+  nav{
+    background-color: tomato;
+
+  }
+
+  #navSpacing{
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+  .nav li{
+    display: none;
+    background-color: tomato;
+
+  }
+
+  .show li {
+    display: block;
+  }
 
 section{
     margin: 5px;
@@ -240,6 +275,7 @@ div.member_card {
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    
       
 }
 
