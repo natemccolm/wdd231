@@ -97,7 +97,6 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    max-width: auto;
 }
 
 #member_spread .grid_view{
@@ -105,13 +104,12 @@ footer {
     grid-template-columns: auto auto auto;
     background-color: #2196F3;
     padding: 10px;
-    max-width: auto;
+
 }
 
 #member_spread.list_view{
     display: flex;
     flex-direction: column;
-    max-width: auto;
 
 }
 
