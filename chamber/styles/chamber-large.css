@@ -97,18 +97,21 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+    max-width: auto;
 }
 
 #member_spread .grid_view{
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: #2196F3;
-    padding: 10px;;
+    padding: 10px;
+    max-width: auto;
 }
 
 #member_spread.list_view{
     display: flex;
     flex-direction: column;
+    max-width: auto;
 
 }
 
@@ -162,7 +165,6 @@ section{
     margin: 5px;
     background-color: rgb(238 238 238);     
     border-color: #174e70;
-    border-style: solid;
     width: 100%;
     display: grid;
     justify-items: center;
@@ -229,8 +231,8 @@ div.member_card {
 }
 
 #socials img{
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 #socials {

@@ -55,4 +55,13 @@ document.addEventListener("DOMContentLoaded", async () => {
         isGridView = !isGridView;
         pull_members(members, isGridView);
     });
+
+    const mainnav=document.querySelector('#navSpacing')
+    const hambutton=document.querySelector('#menu')
+ 
+
+    hambutton.addEventListener('click', () =>{
+	mainnav.classList.toggle('show');
+	hambutton.classList.toggle('show');
+});
 });

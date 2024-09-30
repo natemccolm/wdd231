@@ -94,21 +94,21 @@ footer {
     color: #FFFFFF;
     padding: 25px 50px;
     margin-top: 10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
+    max-width: auto;
 }
 
 #member_spread .grid_view{
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: #2196F3;
-    padding: 10px;;
+    padding: 10px;
+    max-width: auto;
 }
 
 #member_spread.list_view{
     display: flex;
     flex-direction: column;
+    max-width: auto;
 
 }
 
@@ -117,6 +117,21 @@ footer {
     content:"X"
 }
 
+  #menu::before {
+    content: '☰';
+  }
+
+  #menu{
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    background-color: #eee;
+    color: #000;
+  }
+
+  
     
 nav ul {
     display: flex;
@@ -154,15 +169,20 @@ nav ul {
 }
 
 #menu{
-    display: none
-}
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    background-color: #eee;
+    color: #000;
+  }
 
 
 section{
     margin: 5px;
     background-color: rgb(238 238 238);     
     border-color: #174e70;
-    border-style: solid;
     width: 100%;
     display: grid;
     justify-items: center;
@@ -229,8 +249,8 @@ div.member_card {
 }
 
 #socials img{
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 50px;
+    max-height: 50px;
 }
 
 #socials {
