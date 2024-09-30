@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale-1.0"/>
+        <meta property='og:title' content="WDD 231-Dynamic Web Fundamentals-Nate McColm"/>
+        <meta name="description" content="WDD 231-Dynamic Web Fundamentals, Nathan McColm, Homepage"/>
+        <meta name="author" content="Nate McColm"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="http://127.0.0.1:5500/index.html"/>
+        <meta property="og=image" content="https://pocatello.gov/ImageRepository/Document?documentID=7620"/>
+        <link rel="stylesheet" href="../chamber/styles/chamber.css"/>
+        <link rel="stylesheet" href="../chamber/styles/chamber-large.css"/>
+        <script src="">data/new_members.json</script>
+        <script src="../chamber/scripts/chamber.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+          <div class="about_me_1">
+            <h1>Pocatello Chamber of Commerce</h1>
+          </div>
+          
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Discover</a>
+                <a href="#">Business Directory</a>
+                <a href="#">Join</a>
+                <a href="#">About</a>    
+                <a href="#">Podcast</a>    
+                <a href="#">Events</a>    
+            </nav>
+
+            <img class='pocatello_view' src="../chamber/images/pocatello_banner.jpg" alt="View with ISU and Mountains">
+
+        </header>
+
+
+
+        <main>
+            <div class="main_display"> 
+            <section class="card">
+              <h2 class="title">Current Weather</h2>
+                <div class="course_work">
+
+                </div>
+                
+            </section>
+
+            <section class="card">
+                <p class="title">Weather Forecast</p>
+
+            </section>
+
+            <section class="card">
+                <p class="title">Upcoming Events</p>
+                  <div class="about_me_2">
+                  </div>              
+            </section>
+        </div>
+
+        <div class="button_toggle">
+            <button id="view_swap">Swap List View</button>
+        </div>
+            
+        <h2 class="title" id="week_business">This week's highlighted busineses</h2>
+
+            <section class="member_grid">
+              <div id="member_spread" class="grid_view">
+            
+              
+
+            </section>
+        </main>
+
+
+        <footer>
+            <div id="chamber_info">
+            <p>Pocatello Chamber of Commerce</p>
+            <p>1234 Placeholder Way</p>
+            <p>Pocatello, ID</p>
+            <p>lorum_ipsum@placeholder.com</p>
+            <p>(555)-694-2069</p>
+            </div>
+            
+            <div id="socials">
+              <img src="../chamber/images/youtube_icon.png">  
+              <img src="../chamber/images/twitter_logo.jpg">  
+              <img src="../chamber/images/new_li_logo.jpg">  
+            </div>
+            
+            <div id="signature"><p><span id="currentyear"></span></p>
+            <p id="lastModified"></p>
+            </div>
+            
+        </footer>
+
+    </body>
+</html>

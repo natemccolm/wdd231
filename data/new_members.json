@@ -1,0 +1,26 @@
+{
+ "family_name": "Smith",
+ "move_in_date" : "1-01-2024",
+ "family_size" : 3,
+ "bishop_visit": false,
+ "family_members" : [{
+    "name": "Robert",
+    "gender": "male",
+    "birthdate": "1-01-39"
+ },
+  {  "name": "Gertrude",
+    "gender" : "female",
+    "birthdate" : "1-01-29"
+ },
+
+{
+    "name": "Poopface",
+    "gender" : "None",
+    "birthdate": "13-34-42"
+}
+ ]
+
+
+
+
+}

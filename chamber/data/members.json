@@ -1,0 +1,73 @@
+[
+{
+    "name": "Abra Cadabra's",
+    "logo": "../chamber/images/abras_logo.jpg",
+    "phone": "(208) 716-0998",
+    "address": "1151 Yellowstone Ave, Pocatello, ID 83201",
+    "website": "https://www.facebook.com/abraspocatello/",
+    "membership": "Gold",
+    "description": "Abracadabras is all about high quality, exciting, delicious Food. We excel in breakfast, brunch, and Lunch"
+},
+
+{
+    "name": "Scoops and Sliders",
+    "logo": "../chamber/images/scoops_logo.jpg",
+    "phone": "(208) 646-8111",
+    "address": "345 Yellowstone Ave Suite D2, Pocatello, ID 83201",
+    "website": "https://www.facebook.com/scoopsnsliders/",
+    "membership": "Gold",
+    "description": "We are family owned Homade Ice Cream Shop. We use high quality ingredients to produce flavors that are fun, and sometimes mind boggling great!"
+},
+
+{
+    "name": "Computer Warehouse",
+    "logo": "../chamber/images/computer_warehouse_logo.png",
+    "phone": "(208) 238-8400",
+    "address": "1509 Yellowstone Ave, Pocatello, ID 83201",
+    "website": "https://comp-warehouse.com/",
+    "membership": "Silver",
+    "description": "Has repair services · Has battery recycling · Has electronics recycling."
+},
+
+{
+    "name": "Gate City Games",
+    "logo": "../chamber/images/gate_city_games_logo.jpg",
+    "phone": "(208) 904-4330",
+    "address": "777 Yellowstone Ave Suite A, Pocatello, ID 83201",
+    "website": "https://gatecitygames.us/",
+    "membership": "Gold",
+    "description": "Gate City Games is a friendly local game store serving Pocatello and the surrounding areas."
+},
+
+{
+    "name": "Goblin Town Games",
+    "logo": "../chamber/images/goblin_town_games_logo.jpg",
+    "phone": "(208) 242-3237",
+    "address": "1800 Garrett Way STE 10, Pocatello, ID 83201",
+    "website": "https://www.goblintowngames.com/",
+    "membership": "Bronze",
+    "description": "We are a full service game store. We carry a wide range of board games, table top miniatures games, role playing games, and collectible card games. Sorry, no video games."
+},
+
+{
+    "name": "Jedi Junk Removal",
+    "logo": "../chamber/images/jedi_logo.jpg",
+    "phone": "(208) 754-5261",
+    "address": "353 E Lander St Unit 202, Pocatello, ID 83201",
+    "website": "https://junkjedi.org/pocatello/",
+    "membership": "Silver",
+    "description": "Waste management service in Pocatello, Idaho"
+},
+
+{
+    "name": "The Yellowstone Resturaunt",
+    "logo": "../chamber/images/yellowstone_logo.png",
+    "phone": "(208) 234-7000",
+    "address": "230 W Bonneville St, Pocatello, ID 83204",
+    "website": "https://theyellowstonerestaurant.com/menu-for-yellowstone-restaurant/",
+    "membership": "Gold",
+    "description": "Serves happy hour food · Serves great cocktails · Serves vegetarian dishes"
+}
+
+
+]

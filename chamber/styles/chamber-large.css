@@ -1,0 +1,245 @@
+@media screen and (min-width: 650px) {
+
+    header{
+        background-color: black;
+        color: rgb(255, 255, 255);
+        width:100%;
+    }
+
+    main{
+        grid-template-columns: 1fr 1fr;
+        padding-top: 10px;
+    }
+
+
+
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #d8f2fd;
+  }
+  
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:#d8f2fd;
+  }
+
+header {
+    background-color: #333333;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+}
+
+header h1{
+    display: grid;
+    background-color:  #174e70;
+    justify-content: center;
+    color: #d8f2fd;
+}
+
+#stars{
+display: flex;
+}
+
+fieldset{
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rating-label{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.title{
+
+    display:flex;
+    justify-content: center;
+    background-color: #333333;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    height: 30px;
+    margin-top: 0px;
+    width: 100%;
+    border: 1px;
+}
+
+nav a:hover {
+	text-decoration:overline;
+}
+
+body {
+    margin: 0 auto;
+}
+
+
+nav {
+    display: flex;
+	color: rgb(255, 255, 255);
+	padding: 20px 20px;
+    text-align: center;
+	text-decoration: none;
+    justify-content: space-evenly;
+    font-size: medium;    
+}
+
+footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 25px 50px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+#member_spread .grid_view{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;;
+}
+
+#member_spread.list_view{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#menu.show::before {
+    content:"X"
+}
+
+    
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    list-style-type: none;
+  }
+
+  nav li {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  nav li:last-child {
+    margin-bottom: 20px;
+  }
+
+
+  nav a {
+    color: white;
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .image-header {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+
+#menu{
+    display: none
+}
+
+
+section{
+    margin: 5px;
+    background-color: rgb(238 238 238);     
+    border-color: #174e70;
+    border-style: solid;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+
+.main_display {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    grid-template-columns: 1fr;
+    display: grid;
+    align-content: stretch;
+    justify-content: flex-start;
+    border-color: #7d2626;
+    border: 3px;
+    border-style: solid;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+  .pocatello_view {
+    display: grid;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.button_toggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#view_swap{
+    background-color:#333333 ;
+    color: #FFFFFF;
+    font-size: larger;
+    margin-bottom: 15px;
+    border-radius: 12px;
+}
+
+.member_grid img{
+    max-width: 150px;
+    max-height: 150px;
+    display:flex;
+}
+
+div.member_card {
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+      
+}
+
+#member_spread{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#socials img{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+#socials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+}
+
+
+
