@@ -201,7 +201,7 @@
     }
 
     .degree_courses li{
-        background-color:#115CAF;
+        background-color:#00ffec;
         color:#FFFFFF;
         margin: 10px;
         padding: 1rem;
@@ -214,7 +214,7 @@
     .classes li{
         display: flex;
         flex-wrap: wrap;
-        background-color:#115CAF;
+        background-color:#00ffec;
         color:#FFFFFF;
         margin: 10px;
         padding: 1rem;
@@ -231,4 +231,44 @@
     .classes li.red{
         background-color: #8B0000;
     }
+
+
+    #menu.show::before {
+        content:"X"
+    }
+    
+      #menu::before {
+        content: '☰';
+      }
+    
+      #menu{
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: none;
+        padding: .5rem .75rem;
+        background-color: #eee;
+        color: #000;
+      }
+
+    #main_menu{
+        display: none;
+    }
+
+    .nav li{
+        display: none;
+        background-color: tomato;
+    
+      }
+    
+      .show li {
+        display: block;
+      }
+
+      .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    
 }

@@ -203,7 +203,7 @@
     }
 
     .degree_courses li{
-        background-color:#115CAF;
+        background-color:#00ffec;
         color:#FFFFFF;
         margin: 10px;
         padding: 1rem;
@@ -216,7 +216,7 @@
     .classes li{
         display: flex;
         flex-wrap: wrap;
-        background-color:#115CAF;
+        background-color:#00ffec;
         color:#FFFFFF;
         margin: 10px;
         padding: 1rem;
@@ -234,5 +234,14 @@
         background-color: #8B0000;
     }
 
+    #menu{
+        display: none
+    }
+
+    .nav{
+        display: none;
+    }
+
+    
 
     }

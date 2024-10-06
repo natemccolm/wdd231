@@ -57,4 +57,16 @@ sort_cse.addEventListener('click', () =>{
     let sorted_classes=courses.filter(courses=>courses.subject=='CSE')
         sorting(sorted_classes)
 }
+
+
+
 )
+
+const mainnav=document.querySelector('.nav')
+const hambutton=document.querySelector('#menu')
+
+
+hambutton.addEventListener('click', () =>{
+mainnav.classList.toggle('show');
+hambutton.classList.toggle('show');
+});
