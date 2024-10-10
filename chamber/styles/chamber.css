@@ -293,7 +293,38 @@ div.member_card {
 }
 
 
+.random_businesses{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: #333333;
+  border-style: solid;
+  border-spacing: 10px;
+  
 }
+
+.random_businesses img{
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.join{
+  background-color: #333;
+  display: grid;
+}
+
+.join_button{
+display: grid;
+justify-content: center;
+background-color: #174e70;
+color: #FFFFFF;
+font-size: large;
+border-radius: 10px;
+}
+
+}
+
+
+
 
 
 
