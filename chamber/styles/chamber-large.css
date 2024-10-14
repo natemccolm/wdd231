@@ -47,7 +47,6 @@ display: flex;
 }
 
 fieldset{
-    display: inline-flex;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -298,7 +297,6 @@ border-radius: 10px;
 
 #form_field{
     display: grid;
-    display: inline-grid;
   }
 
   .modal {

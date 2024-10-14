@@ -68,19 +68,19 @@
                 <label for="lastName">Last Name</label>
                 <input name="lastName" id="lastName" type="text" autocomplete="family-name" required/>
                 
-                <label for="organization-title">Title</label>
+                <label for="orgTitle">Title</label>
                 <input name="orgTitle" id="orgTitle" type="text" autocomplete="organization-title" required/>
                 
-                <label for="name-input">Organization</label>
-                <input name="orgName" id="orgName" type="text" autocomplete="organization-name" required/>
+                <label for="orgName">Organization</label>
+                <input name="orgName" id="orgName" type="text" autocomplete="organization" required/>
 
-                <label for="name-input">Email</label>
+                <label for="email">Email</label>
                 <input name="email" id="email" type="email" autocomplete="on" required/>
 
-                <label for="name-input">Phone Number</label>
-                <input name="phone" id="phone" type="text" autocomplete="on" required/>
+                <label for="phone">Phone Number</label>
+                <input name="phone" id="phone" type="tel" autocomplete="on" required/>
 
-                <label for="membership_level" >Choose a membership level</label>
+                <label for="member_level" >Choose a membership level</label>
                     <select name="member_level" id="member_level">
                         <option value="nonprofit">Nonprofit</option>
                         <option value="bronze">Bronze</option>
@@ -88,8 +88,10 @@
                         <option value="gold">Gold</option>
                     </select>
 
-                <label for="description_box" id="description_box">Business/Organization description</label>
+                <label for="review-box" id="description_box">Business/Organization description</label>
                 <textarea aria-label="text area" id="review-box" name="description"></textarea>
+
+                <input type="hidden" id="timestamp" name="timestamp">
                 
                 <input aria-label="input" type="submit" id="submit-button" value="Apply Now!">
                 </fieldset>
