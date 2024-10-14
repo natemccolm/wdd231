@@ -39,7 +39,45 @@ function random_select(array){
     const pull_weather=await fetch(weather_url);
     const weather_data=await Response.json();
 
+    
 
 
 
 }*/
+
+const cards = document.querySelectorAll('.card');
+
+// Loop through each card
+cards.forEach((card) => {
+  // Add click event listener to each card
+  card.addEventListener('click', () => {
+    // Get the modal ID from the card's data-modal attribute
+    const modalId = card.getAttribute('data-modal');
+    const modal = document.getElementById(modalId);
+    
+    // Open the corresponding modal
+    if (modal) {
+      modal.style.display = 'block';
+    }
+  });
+});
+
+// Close modals when clicking the close button
+const closeButtons = document.querySelectorAll('.close');
+
+closeButtons.forEach((closeBtn) => {
+  closeBtn.addEventListener('click', () => {
+    // Hide the modal when close is clicked
+    closeBtn.closest('.modal').style.display = 'none';
+  });
+});
+
+// Close modal when clicking outside the modal content
+window.addEventListener('click', (event) => {
+  const modals = document.querySelectorAll('.modal');
+  modals.forEach((modal) => {
+    if (event.target === modal) {
+      modal.style.display = 'none';
+    }
+  });
+});

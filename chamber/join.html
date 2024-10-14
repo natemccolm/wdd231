@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <meta property="og:title" content="Pocatello Chamber of Commerce">
+        <meta name="description" content="Pocatello Chamber of Commerce">
+        <title>Pocatello Chamber of Commerce</title>
+        <meta name="author" content="Nate McColm">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://natemccolm.github.io/wdd231/chamber/directory.html ">
+        <meta property="og:image" content="https://natemccolm.github.io/wdd231/chamber/images/pocatello_banner.jpg">
+        <link rel="stylesheet" href="../chamber/styles/chamber.css">
+        <link rel="stylesheet" href="../chamber/styles/chamber-large.css">
+        <script src="data/members.json" defer></script>
+        <script src="scripts/join.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="icon" href="../chamber/images/favicon.ico">
+    </head>
+    <body>
+        <header>
+          <div class="poky_chamber_head">
+            <h1>Pocatello Chamber of Commerce</h1>
+          </div>
+ 
+          <div id="navSpacing">
+            <nav id="menu_list">
+                <a href="../chamber/index.html">Home</a>
+                <a href="#">Discover</a>
+                <a href="../chamber/directory.html">Business Directory</a>
+                <a href="../chamber/join.html">Join</a>
+                <a href="#">About</a>    
+                <a href="#">Podcast</a>    
+                <a href="#">Events</a>    
+            </nav>
+            <button id="menu">Menu</button>
+            <ul class="nav">
+                <li><a href="../chamber/index.html">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="../chamber/directory.html">Business Directory</a></li>
+                <li><a href="../chamber/join.html">Join</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Podcast</a></li>
+                <li><a href="#">Podcast</a></li>
+
+  
+              </ul>
+            </div>
+
+            <img class='pocatello_view' src="../chamber/images/pocatello_banner.jpg" alt="View with ISU and Mountains">
+
+   
+
+        </header>
+
+
+
+        <main id="join_main">
+        <section>
+            <div class="form_elements">
+            <form method="get" action="../chamber/thankyou.html">
+                <fieldset id="form_field">
+                <label for="firstName">First Name</label>
+                <input name="firstName" id="firstName" type="text" autocomplete="given-name" required/>
+
+                <label for="lastName">Last Name</label>
+                <input name="lastName" id="lastName" type="text" autocomplete="family-name" required/>
+                
+                <label for="organization-title">Title</label>
+                <input name="orgTitle" id="orgTitle" type="text" autocomplete="organization-title" required/>
+                
+                <label for="name-input">Organization</label>
+                <input name="orgName" id="orgName" type="text" autocomplete="organization-name" required/>
+
+                <label for="name-input">Email</label>
+                <input name="email" id="email" type="email" autocomplete="on" required/>
+
+                <label for="name-input">Phone Number</label>
+                <input name="phone" id="phone" type="text" autocomplete="on" required/>
+
+                <label for="membership_level" >Choose a membership level</label>
+                    <select name="member_level" id="member_level">
+                        <option value="nonprofit">Nonprofit</option>
+                        <option value="bronze">Bronze</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                    </select>
+
+                <label for="description_box" id="description_box">Business/Organization description</label>
+                <textarea aria-label="text area" id="review-box" name="description"></textarea>
+                
+                <input aria-label="input" type="submit" id="submit-button" value="Apply Now!">
+                </fieldset>
+            </form>
+        </div>
+    </section>  
+
+        <!--Modal membership cards-->
+        <div id="membership_info">
+            <div class="card" data-modal="nonprofit_modal">
+                <h2>Nonprofit Membership</h2>
+                <a class="card_a" href="#nonprofit_modal">Learn More</a>
+            </div>
+            <div class="card" data-modal="bronze_modal">
+                <h2>Bronze Membership</h2>
+                <a class="card_a" href="#bronze_modal">Learn More</a>
+            </div>
+            <div class="card" data-modal="silver_modal">
+                <h2>Silver Membership</h2>
+                <a class="card_a" href="#nonprofit_modal">Learn More</a>
+            </div>
+            <div class="card" data-modal="gold_modal">
+                <h2>Gold Membership</h2>
+                <a class="card_a" href="#gold_modal">Learn More</a>
+            </div>
+        </div>
+        <!--Modal membership coding-->
+    <div>
+        <div id="nonprofit_modal" class="modal" style="display: none;">
+            <div class="modal_filler">
+                <span class="close">X</span>
+                <h2>Nonprofit Membership Benefits</h2>
+                <h2>Placeholder</h2>
+            </div>
+        </div>
+
+        <div id="bronze_modal" class="modal" style="display: none;">
+            <div class="modal_filler">
+                <span class="close">X</span>
+                <h2>Bronze Membership Benefits</h2>
+                <h2>Placeholder</h2>
+            </div>
+        </div>
+
+        <div id="silver_modal" class="modal" style="display: none;">
+            <div class="modal_filler">
+                <span class="close">X</span>
+                <h2>Silver Membership Benefits</h2>
+                <h2>Placeholder</h2>
+            </div>
+        </div>
+
+        <div id="gold_modal" class="modal" style="display: none;">
+            <div class="modal_filler">
+                <span class="close">X</span>
+                <h2>Gold Membership Benefits</h2>
+                <h2>Placeholder</h2>
+            </div>
+        </div>
+    </div>
+  
+        </main>
+
+
+        <footer>
+            <div id="chamber_info">
+            <p>Pocatello Chamber of Commerce</p>
+            <p>1234 Placeholder Way</p>
+            <p>Pocatello, ID</p>
+            <p>lorum_ipsum@placeholder.com</p>
+            <p>(555)-694-2069</p>
+            </div>
+            
+            <div id="socials">
+              <img src="../chamber/images/youtube_icon.png" alt="YouTube">  
+              <img src="../chamber/images/twitter_logo.jpg" alt="Twitter">  
+              <img src="../chamber/images/new_li_logo.jpg" alt="LinkedIn">  
+            </div>
+            
+            <div id="signature"><p><span id="currentyear"></span></p>
+            <p id="lastModified"></p>
+            </div>
+            
+        </footer>
+
+    </body>
+</html>
