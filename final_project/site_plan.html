@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>WDD 131-Dynamic Web Fundamentals-Nate McColm</title> 
+        <meta name="mtg final project" content="WDD 231, Nathan McColm, Final Project">
+        <meta name="author" content="Nate McColm">
+        <link rel="stylesheet" href="../final_project/styles/project-large.css">
+        <link rel="stylesheet" href="../final_project/styles/project.css">
+        <script src='../final_project/scripts/project_script.js' defer></script>
+        <script src="../final_project/scripts/deck_array.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <div class="site_info">
+            <h1>The title of this site is MTG Deck Sorter, representing that it does just that, sorts some decks and grabs the relevant info</h1>
+            <h2>The purpose of the site is to showcase the decks I have built as well as incorporate API usage to retrieve data from them, rather than rely on an exhaustive prewritten array.</h2>
+            <h2>Scenarios: 
+                
+                What benefit might the have for the average person? 
+                If they are looking to build decks of a similar type, then they have something to look through, especially if they're looking for specific subtypes for those deck themes.
+
+                What happens if they dislike or disagree with some of the deck makeup?
+
+                That's their right to do so, and they can leave their opinion in the box that will be at the bottom of the page.
+            </h2>
+            <h2>Color Schema and Typography are included on the CSS</h2>
+        </div>
+
+        <h3>Deck Showcase</h3>
+         
+        <nav>
+            <h2>This menu section sorts through the various themes of the decks, compiling the deck in its entirety.</h2>
+            <button id="menu">Menu</button> 
+          <div id="navSpacing">
+            <ul class="nav">
+              <li><a href="../project/index.html" id="home">Home</a></li>
+              <li><a href="../project/angels.html" id="angel">Angel</a></li>
+              <li><a href="../project/counters.html" id="counter">Counter</a></li>
+              <li><a href="../project/dinosaurs.html" id="dinosaur">Dinosaur</a></li>
+              <li><a href="../project/slivers.html" id="sliver">Sliver</a></li>
+              <li><a href="../project/vampires.html" id="vampire">Vampire</a></li>
+
+            </ul>
+
+            <h2>This submenu section allows for futher sorting of cards based on their individual type, thus further narrowing down any potential search data. If no cards appear of a given type, then that is because there are none of those in that particular deck.</h2>
+
+            <ul class="nav" id="subNav">
+                <li><a href='#' id="all">All</a></li>
+                <li><a href='#' id="artifacts">Artifact</a></li>
+                <li><a href='#' id="creatures">Creature</a></li>
+                <li><a href='#' id="enchantments">Enchantment</a></li>
+                <li><a href='#' id="instants">Instant</a></li>
+                <li><a href='#' id="land">Land</a></li>
+                <li><a href='#' id="other">Other</a></li>
+                <li><a href='#' id="planeswalker">Planeswalker</a></li>
+                <li><a href='#' id="sorcery">Sorcery</a></li>
+              </ul>
+            </div>
+        </nav>
+       
+          <h2 id="category">Home</h2>
+    </header>
+  
+    <main>
+        <h2>This div, "res-grid," is where all the thumbnails and card data will appeared after being generated through the JS commands.</h2>
+
+
+        <h3 id="cardNum"></h3>
+
+        <div class="res-grid">
+            
+        </div>
+     
+
+
+    </main>
+
+    <footer>
+        <h2>This is the footer...for footer content...</h2>
+        <p><span id="currentyear"></span></p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+</html>
