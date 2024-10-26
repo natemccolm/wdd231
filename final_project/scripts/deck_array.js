@@ -741,7 +741,7 @@ const cards = [
     },
 
     {
-    cardName: "Vito, Thorn of the Duck Rose",
+    cardName: "Vito, Thorn of the Dusk Rose",
     manaCost: "3",
     deck: "vampire",
     type: 'creature',
@@ -758,7 +758,7 @@ const cards = [
     deck: "vampire",
     type: 'land',
     imageUrl:
-    "https://cards.deckstats.net/picture.php?utf8=1&lng=en&card=Vampire%20Nocturnus&set=PDP13&collector_number=3"
+    "https://cards.deckstats.net/picture.php?utf8=1&lng=en&card=Voldaren+Estate&set=LCC&collector_number=369&language_code=en"
     },
 
     {
@@ -881,7 +881,7 @@ const cards = [
     },
 
     {
-        cardName: "Bonehorde Dracosaur",
+        cardName: "Bonehoard Dracosaur",
         manaCost: "5",
         deck: "dinosaur",
         type: 'creature',
@@ -951,7 +951,7 @@ const cards = [
         deck: "vampire",
         type: 'land',
         imageUrl:
-        "https://cards.deckstats.net/picture.php?utf8=1&lng=en&card=Curious%20Altisaur&set=LCC"
+        "https://cards.deckstats.net/picture.php?utf8=1&lng=en&card=Drossforge+Bridge&set=BRC&collector_number=183&language_code=en"
       },
 
 
@@ -973,7 +973,7 @@ const cards = [
       },
 
       {
-        cardName: "Etali, Primal Conquerer",
+        cardName: "Etali, Primal Conqueror",
         manaCost: "7",
         deck: "dinosaur",
         type: 'creature',
@@ -1095,7 +1095,7 @@ const cards = [
 	  "https://cards.deckstats.net/picture.php?utf8=1&lng=en&card=Growing%20Rites%20of%20Itlimoc%20%2F%2F%20Itlimoc%2C%20Cradle%20of%20the%20Sun&set=LCI"
 	},
 	{
-	  cardName: "Huatli, Poet of Unity",
+	  cardName: "Huatli, Poet of Unity // Roar of the Fifth People",
 	  manaCost: "3",
 	  deck: "dinosaur",
       type: 'creature',
@@ -1147,7 +1147,7 @@ const cards = [
     },
 
     {
-    cardName: "Kinjali's Caller",
+    cardName: "Kinjalli's Caller",
     manaCost: "1",
     deck: "dinosaur",
     type: 'creature',
@@ -1156,7 +1156,7 @@ const cards = [
     },
 
     {
-    cardName: "Kinjali's Sunwing",
+    cardName: "Kinjalli's Sunwing",
     manaCost: "3",
     deck: "dinosaur",
     type: 'creature',
@@ -1601,7 +1601,7 @@ const cards = [
   "https://cards.deckstats.net/picture.php?utf8=1&lng=en&card=Adarkar%20Wastes&set=M3C"
   },
   {
-  cardName: "Akroma, Angel Fury",
+  cardName: "Akroma, Angel of Fury",
   manaCost: "8",
   deck: "angel",
   type: 'creature',

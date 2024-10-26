@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mtgsdk": "^1.0.1",
+    "node": "^22.10.0"
+  }
+}

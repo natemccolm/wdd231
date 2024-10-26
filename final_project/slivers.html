@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>WDD 131-Dynamic Web Fundamentals-Nate McColm</title> 
+        <meta name="description" content="WDD 131-Dynamic Web Fundamentals, Nathan McColm, Homepage">
+        <meta name="author" content="Nate McColm">
+        <link rel="stylesheet" href="../final_project/styles/project-large.css">
+        <link rel="stylesheet" href="../final_project/styles/project.css">
+        <script src='../final_project/scripts/project_script.js' defer></script>
+        <script src="../final_project/scripts/deck_array.js" defer></script>
+        <link rel="icon" href="../chamber/images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>Deck Showcase</h1>
+        <nav>
+            <button id="menu">Menu</button> 
+            <div id="navSpacing">
+              <ul class="nav">
+                <li><a href="../final_project/index.html" id="home">Home</a></li>
+                <li><a href="../final_project/angels.html" id="angel">Angel</a></li>
+                <li><a href="../final_project/counters.html" id="counter">Counter</a></li>
+                <li><a href="../final_project/dinosaurs.html" id="dinosaur">Dinosaur</a></li>
+                <li><a href="../final_project/slivers.html" id="sliver">Sliver</a></li>
+                <li><a href="../final_project/vampires.html" id="vampire">Vampire</a></li>
+  
+              </ul>
+  
+              <ul class="nav" id="subNav">
+                  <li><a href='#' id="all">All</a></li>
+                  <li><a href='#' id="artifacts">Artifact</a></li>
+                  <li><a href='#' id="creatures">Creature</a></li>
+                  <li><a href='#' id="enchantments">Enchantment</a></li>
+                  <li><a href='#' id="instants">Instant</a></li>
+                  <li><a href='#' id="land">Land</a></li>
+                  <li><a href='#' id="other">Other</a></li>
+                  <li><a href='#' id="planeswalker">Planeswalker</a></li>
+                  <li><a href='#' id="sorcery">Sorcery</a></li>
+                </ul>
+              </div>
+          </nav>
+       
+          <h2 id="category">Sliver</h2>
+    </header>
+  
+    <main>
+
+        <h3 id="cardNum"></h3>
+        
+        <div class="res-grid">
+            
+        </div>
+        <div id="cardModal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">&times;</span> <!-- Close button -->
+                <div id="modalContent"></div>
+                <button id="closeModal">Close</button>
+            </div>
+        </div>
+        <form method="get" action="deckReview.html">
+            <fieldset>
+              <div class="title">Rate this deck!</div>
+              <div id="stars">
+                  <label class="rating-label" for="1star">⭐<br><input aria-label="input" id="1star" type="radio" name="rating" required></label>
+                  <label class="rating-label" for="2star">⭐⭐<br><input aria-label="input" id="2star" type="radio" name="rating" required></label>
+                  <label class="rating-label" for="3star">⭐⭐⭐<br><input aria-label="input" id="3star" type="radio" name="rating" required></label>
+                  <label class="rating-label" for="4star">⭐⭐⭐⭐<br><input aria-label="input" id="4star" type="radio" name="rating" required></label>
+                  <label class="rating-label" for="5star">⭐⭐⭐⭐⭐<br><input aria-label="input" id="5star" type="radio" name="rating" required></label>     
+              </div>
+              <div class="title">Thoughts or suggestions!</div>
+                  <label for="reviewInput" id="writtenReviewText">Written Review:</label>
+                  <textarea id="reviewInput" placeholder="Enter your review here"></textarea>
+  
+                  <div class="title">Your Name</div>
+                  <label for="name-input">Your Name (optional):</label>
+                  <input aria-label="input" type="text" id="name-input" name="your name">
+                  <a href="deck_review.html" id="submit-button" class="button">Leave Your Review</a>
+          </fieldset>
+            </form>    
+    </main>
+
+    <footer>
+        <p><span id="currentyear"></span></p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+</html>

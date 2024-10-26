@@ -158,10 +158,8 @@ nav ul {
 }
 
 
-section{
-    margin: 5px;   
+section{  
     border-color: #174e70;
-    width: 100%;
     display: grid;
     justify-items: center;
 }
@@ -180,7 +178,6 @@ section{
     border: 3px;
     border-style: solid;
     margin-top: 10px;
-    margin: 10px;
     animation: colorChange 10s infinite ease-in-out;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 4px;
@@ -320,6 +317,23 @@ border-radius: 10px;
     width: 80%;
 }
 
+.discover_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.discover_divs{
+    display: grid;
+    border: #2a2a2a;
+    border-style: solid;
+    width: 100%;    
+
+}
+
+#comm_pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 }
 

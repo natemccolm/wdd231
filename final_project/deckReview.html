@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <title>Deck Review</title> 
+            <meta name="description" content="WDD 131-Dynamic Web Fundamentals, Nathan McColm, Homepage">
+            <meta name="author" content="Nate McColm">
+            <link rel="stylesheet" href="../final_project/styles/project-large.css">
+            <link rel="stylesheet" href="../final_project/styles/project.css">
+            <script src='../final_project/scripts/project_script.js' defer></script>
+            <script src="../final_project/scripts/deck_array.js" defer></script>
+            <link rel="icon" href="../chamber/images/favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+    <header>
+        <h1>Deck Showcase</h1>
+        <nav>
+            <button id="menu">Menu</button> 
+            <div id="navSpacing">
+              <ul class="nav">
+                <li><a href="../final_project/index.html" id="home">Home</a></li>
+                <li><a href="../final_project/angels.html" id="angel">Angel</a></li>
+                <li><a href="../final_project/counters.html" id="counter">Counter</a></li>
+                <li><a href="../final_project/dinosaurs.html" id="dinosaur">Dinosaur</a></li>
+                <li><a href="../final_project/slivers.html" id="sliver">Sliver</a></li>
+                <li><a href="../final_project/vampires.html" id="vampire">Vampire</a></li>
+  
+              </ul>
+  
+              <ul class="nav" id="subNav">
+                  <li><a href='#' id="all">All</a></li>
+                  <li><a href='#' id="artifacts">Artifact</a></li>
+                  <li><a href='#' id="creatures">Creature</a></li>
+                  <li><a href='#' id="enchantments">Enchantment</a></li>
+                  <li><a href='#' id="instants">Instant</a></li>
+                  <li><a href='#' id="land">Land</a></li>
+                  <li><a href='#' id="other">Other</a></li>
+                  <li><a href='#' id="planeswalker">Planeswalker</a></li>
+                  <li><a href='#' id="sorcery">Sorcery</a></li>
+                </ul>
+              </div>
+          </nav>
+       
+          <h2 id="category">Thank you for the review!</h2>
+    </header>
+  
+    <main>
+
+        <h3 id="cardNum"></h3>
+
+        <h4>Thank you for leaving your review!</h4>
+        <div id="recentReview">
+            <h3>Recent Review</h3>
+            <div id="recentReview"></div>
+            <p id="recentReview">No reviews yet.</p> <!-- Placeholder for most recent review -->
+            <h3>All Reviews</h3>
+            <div id="allReviewsDisplay"></div> <!-- Section for displaying all reviews -->
+        </div>
+        <h4>Feel free to go back to reviewing the decks above as before, and leave further reviews if you'd like.</h4>
+        <h4>Have a great day!</h4>
+        <br>
+        <br>
+
+
+        <div class="norris">
+            <h2>Oh, also, here's a random Chuck Norris Joke:</h2>
+            <div class="container">
+                <h1>Chuck Norris Jokes</h1>
+                <div id="joke">Click the button to get a Chuck Norris joke!</div>
+                <button id="jokeButton">Get Joke</button>
+                <div id="cardModal" style="display: none;">
+                    <div class="modal-content">
+                        <span class="close">&times;</span> <!-- Close button -->
+                        <div id="modalContent"></div>
+                        <button id="closeModal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p><span id="currentyear"></span></p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+</html>
