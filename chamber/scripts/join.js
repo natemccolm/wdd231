@@ -80,4 +80,52 @@ window.addEventListener('click', (event) => {
 	hambutton.classList.toggle('show');
 });
 
-/*business_spotlight();*/
+
+// Select all cards and close buttons
+const modalCards = document.querySelectorAll('.card');
+const closeButtons = document.querySelectorAll('.close');
+
+// Function to open modal with fade-in effect
+function openModal(modal) {
+  modal.classList.add('show'); // Add the show class to fade in
+  modal.classList.remove('fade-out'); // Ensure fade-out class is removed
+}
+
+// Function to close modal with fade-out effect
+function closeModal(modal) {
+  modal.classList.add('fade-out'); // Start fade-out transition
+  modal.classList.remove('show'); // Remove the show class for opacity transition
+  setTimeout(() => {
+    modal.style.display = 'none'; // Fully hide after fade-out
+    modal.classList.remove('fade-out'); // Reset fade-out class
+  }, 300); // Duration matches the fade-out transition
+}
+
+// Loop through each card and add click event to open corresponding modal
+modalCards.forEach((card) => {
+  card.addEventListener('click', () => {
+    const modalId = card.getAttribute('data-modal');
+    const modal = document.getElementById(modalId);
+    if (modal) {
+      modal.style.display = 'flex'; // Make modal visible before applying fade
+      openModal(modal);
+    }
+  });
+});
+
+// Close modals when close button is clicked
+closeButtons.forEach((closeBtn) => {
+  closeBtn.addEventListener('click', () => {
+    const modal = closeBtn.closest('.modal');
+    if (modal) closeModal(modal);
+  });
+});
+
+// Close modal when clicking outside of modal content
+window.addEventListener('click', (event) => {
+  const modals = document.querySelectorAll('.modal');
+  modals.forEach((modal) => {
+    if (event.target === modal) closeModal(modal);
+  });
+});
+
