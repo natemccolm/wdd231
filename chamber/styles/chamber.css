@@ -354,6 +354,167 @@ border-radius: 10px;
   width: 80%;
 }
 
+.discover_main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.discover_divs{
+  display: grid;
+  border: #2a2a2a;
+  border-style: solid;
+  width: 100%;    
+
+}
+
+#comm_pics{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Modal base styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Initially transparent */
+  transition: opacity 0.3s ease; /* Smooth fade transition */
+}
+
+/* Modal content container */
+.modal .modal_filler {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  position: relative;
+  animation: fadeIn 0.3s ease; /* Animation to make content appear */
+}
+
+/* Show class for modal fade-in effect */
+.modal.show {
+  display: flex; /* Display as flex when visible */
+  opacity: 1; /* Fade in to fully visible */
+}
+
+/* Fade-out effect when hiding the modal */
+.modal.fade-out {
+  opacity: 0; /* Transition to transparent */
+  transition: opacity 0.3s ease; /* Smooth fade-out transition */
+}
+
+/* Keyframes for modal content fade-in animation */
+@keyframes fadeIn {
+  from {
+    transform: scale(0.95); /* Start slightly smaller */
+    opacity: 0; /* Start transparent */
+  }
+  to {
+    transform: scale(1); /* Scale to normal size */
+    opacity: 1; /* Fully opaque */
+  }
+}
+
+
+
+/* Card styling with border and animation */
+.card {
+  grid-template-columns: 1fr;
+  display: grid;
+  align-content: stretch;
+  justify-content: flex-start;
+  border-color: #7d2626;
+  border: 3px solid;
+  margin-top: 10px;
+  animation: colorChange 10s infinite ease-in-out;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 4px;
+}
+
+/* Main layout container to hold sidebar and main content */
+.main-layout {
+  display: grid;
+  grid-template-columns: 20% 80%; /* Sidebar 20%, Main content 80% */
+  gap: 20px;
+  width: 100%;
+  height: 100vh; /* Adjust height as needed */
+  box-sizing: border-box;
+}
+
+.sidebar {
+  background-color: #f4f4f4; /* Light gray background */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#visitorMessage {
+  font-size: 1.2em; /* Increase font size */
+  margin-bottom: 15px; /* Space below message */
+  background-color: yellow; /* Temporary color for visibility */
+}
+
+
+
+/* Main content section styling */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+/* Title styling for both sections */
+.title {
+  background-color: #7d2626; /* Background color */
+  color: white; /* Text color */
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  margin: 0 0 10px 0;
+  border-radius: 4px;
+}
+
+/* Community Pics container styling */
+#comm_pics {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive columns */
+  width: 100%; /* Ensure container spans full width */
+  box-sizing: border-box; /* Include padding in width */
+}
+
+/* Image styling for responsive layout */
+#comm_pics img {
+  width: 100%; /* Make images take full width of their parent figure */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 4px;
+}
+
+/* Figure styling to center captions */
+figure {
+  margin: 0; /* Reset margins */
+  display: flex;
+  flex-direction: column; /* Align image and caption vertically */
+  align-items: center; /* Center align content */
+}
+
+
+/* Caption styling */
+figcaption {
+  margin-top: 5px; /* Space between image and caption */
+  font-size: 1em; /* Adjust font size */
+  color: #333; /* Caption color */
+}
 
 
 }

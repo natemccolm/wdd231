@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="../chamber/styles/chamber.css">
         <link rel="stylesheet" href="../chamber/styles/chamber-large.css">
         <script src="data/members.json" defer></script>
-        <script src="scripts/index.js" defer></script>
+        <script src="../chamber/scripts/join.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -60,8 +60,7 @@
         <main class="discover_main">
             
                 <section class="card">
-                <p class="title">Community Info</p>
-                <section class="discover_divs">  
+                <p class="title">Community Info</p> 
                 <div class="discover_divs">
                     <p>City Hall Address:</p>
                     <a href="#"></a>
@@ -83,22 +82,45 @@
                   <div class="discover_divs">
                     <p>Calendar</p>
                   </div>
-                </section>  
                 </section>
 
                 <section class="card">
-                <p class="title">Community Pics</p>
-                <section id="comm_pics">
-                <div id="comm_pics">
-                <img src="#" alt="placeholder">
-                <img src="#" alt="placeholder">
-                <img src="#" alt="placeholder">
-                <img src="#" alt="placeholder">
-                <img src="#" alt="placeholder">
-                <img src="#" alt="placeholder">
-                </div>
+                  <div class="grid-layout">
+                    <p class="title">Community Pics</p>
+                    <div id="comm_pics">
+                      <figure>
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/4d/b5/1e/the-musical-museum-of.jpg?w=900&h=500&s=1" alt="Museum of Clean" loading="lazy">
+                        <figcaption>Museum of Clean</figcaption>
+                      </figure>
+                      <figure>
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/58/39/8e/bison-latifrons-in-the.jpg?w=900&h=500&s=1" alt="Idaho Museum of Natural History" loading="lazy">
+                        <figcaption>Idaho Museum of Natural History</figcaption>
+                      </figure>
+                      <figure>
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/8b/81/35/the-fort-replica.jpg?w=900&h=500&s=1" alt="Fort Hall Replica" loading="lazy">
+                        <figcaption>Fort Hall Replica</figcaption>
+                      </figure>
+                      <figure>
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/1c/c9/9e/fun-day-at-swore-farms.jpg?w=900&h=500&s=1" alt="Swore Farms" loading="lazy">
+                        <figcaption>Swore Farms</figcaption>
+                      </figure>
+                      <figure>
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/b3/cf/ab/dry-and-barren.jpg?w=500&h=-1&s=1" alt="Zoo Idaho" loading="lazy">
+                        <figcaption>Zoo Idaho</figcaption>
+                      </figure>
+                      <figure>
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/0b/28/d6/old-town.jpg?w=500&h=400&s=1" alt="Old Town" loading="lazy">
+                        <figcaption>Old Town</figcaption>
+                      </figure>
+                    </div>
+                  </div>
                 </section>
-                </section>
+                <aside class="sidebar">
+                  <div id="visitorMessage"></div>
+                  <!-- Other sidebar content -->
+                </aside>
+                       
+              
 
 
 

@@ -129,3 +129,24 @@ window.addEventListener('click', (event) => {
   });
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    const messageElement = document.getElementById('visitorMessage');
+    const lastVisit = localStorage.getItem('lastVisit');
+    const now = new Date();
+    let daysSince; // Declare daysSince here
+
+    if (!lastVisit) {
+        messageElement.textContent = "Welcome! Let us know if you have any questions.";
+    } else {
+        // Calculate the number of days since last visit
+        daysSince = Math.floor((now - new Date(lastVisit)) / (1000 * 60 * 60 * 24)); // Calculate days since last visit
+        if (daysSince < 1) {
+            messageElement.textContent = "Back so soon! Awesome!";
+        } else {
+            messageElement.textContent = `You last visited ${daysSince} day${daysSince > 1 ? 's' : ''} ago.`;
+        }
+    }
+
+    // Store the current date as the last visit
+    localStorage.setItem('lastVisit', now);
+});
